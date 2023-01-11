@@ -1,0 +1,2 @@
+class ThrowExeption extends Exception{
+}
