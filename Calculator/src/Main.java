@@ -127,8 +127,8 @@ public class Main {
     public static void exceptionTrows () throws ThrowExeption {
 
         if (checkSign) throw new ThrowExeption();
-        if (RimOrArab&&rimOnArab1/rimOnArab2<1) throw new ThrowExeption();
-        if (RimOrArab&&rimOnArab1-rimOnArab2<1) throw new ThrowExeption();
+        if (RimOrArab&&rimOnArab1/rimOnArab2<1&&sign.equals("/")) throw new ThrowExeption();
+        if (RimOrArab&&rimOnArab1-rimOnArab2<1&&sign.equals("-")) throw new ThrowExeption();
 
     }
 }
